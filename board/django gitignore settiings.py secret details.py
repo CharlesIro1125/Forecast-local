@@ -11,3 +11,6 @@ SECRET_KEY = 'appjo$87-f5qf_=(yoh$=b#-^s!8v!onixfki=6ep)m-4_fgz@'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+psql -c "ALTER USER u_boards WITH PASSWORD 'BcAZoYWsJbvE7RMgBPzxOCexPRVAq'"
