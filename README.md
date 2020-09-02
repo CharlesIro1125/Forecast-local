@@ -1,12 +1,29 @@
 # Forecast-board
-Streaming data forecast board
-the Forecast has directories to different part of the Django files.
 
-To view the files for the application, go to forecast directory under Forecast-board. 
+the Forecast-board has directories to different part of the Django files.
+
+To view the major files for the application, go to forecast directory under Forecast-board. 
 in the Forecast directory are the 
-1) Model.py 
+1) Models.py 
 which contains the formation of the database by setting the various database attribute
 2) Views.py
-this if the file where the quering of the database is done and all the coding required is done in this file.
-it fetches data from the database and sends it to the html file where it is displayed on the webpage
+this is the file where the quering of the database is done and all the coding required is done in this file.
+it fetches data from the database and sends it to the html file where it is displayed on the webpage.
+
+To view the various html files, go to templete directory, under Forecast-board.
+it contains the various html code to display the out in a webfront.
+
+1) base html 
+this is the base structure for the webpage
+2) home html
+this is the home page that contains code to display the total load consumed from the content available in the database.
+3) grid import html
+this is the page that contains code to display the imported power from the content available in the database.
+4) grid export html
+this is the page that contains code to display the exported power from the content available in the database.
+5) solar html
+this is the page that contains code to display the photo-voltaic power from the content available in the database.
+6) predict html
+this is the page that contains code to display the forecasted total load consumed from the content available in the database.
+
 
